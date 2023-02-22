@@ -1,0 +1,7 @@
+.footer {
+  /* Box model */
+  grid-area: f;
+
+  /* Visual */
+  background-color: green;
+}

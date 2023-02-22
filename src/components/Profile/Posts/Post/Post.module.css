@@ -1,0 +1,16 @@
+.post {
+  /* Box model */
+  display: flex;
+  gap: 0.5rem;
+}
+
+.userAvatar {
+  /* Box model */
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+}
+
+.postText {
+  
+}

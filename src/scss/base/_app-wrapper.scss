@@ -1,0 +1,22 @@
+.app-wrapper {
+  // Box model
+  margin: 0 auto;
+  padding-inline: 1rem;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 0.5rem;
+  grid-template-areas:
+  "h h"
+  "s c"
+  "f f";
+}
+
+.app-wrapper-content {
+  /* Box model */
+  grid-area: c;
+  padding: 0.5rem;
+
+  /* Visual */
+  background-color: wheat;
+}

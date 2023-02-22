@@ -1,0 +1,28 @@
+.text {
+  /* Box model */
+  margin-left: 0.5rem;
+
+  /* Typography */
+  color: black;
+}
+
+.title {
+  /* Typography */
+  font-size: 0.7rem;
+  margin-bottom: 0.25rem;
+}
+
+.list {
+  /* Box model */
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+
+  /* Typography */
+  list-style: none;
+}
+
+.item {
+  /* Typography */
+  font-size: 0.5rem;
+}

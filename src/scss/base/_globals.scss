@@ -1,0 +1,52 @@
+html {
+  // Positioning
+  position: relative;
+
+  // Typography
+  font-family: $mainFont;
+  color: $white;
+  font-size: 4.2655vw; // equal to 16px, default browser font-size, but it gives you elastic behavior
+
+  // Visual
+  background-color: $balticSea;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+
+  @include atTabletU {
+    // typography
+
+  }
+
+  @include atDesktopU {
+    // typography
+
+  }
+
+  @include atLargeDesktopU {
+    // typography
+
+  }
+}
+
+.button {
+  // Box model
+  border: none;
+  background-color: none;
+}
+
+.mobile-only {
+  @include atDesktopU {
+    // Box model
+    display: none !important;
+  }
+}
+
+.desktop-only {
+  // Box model
+  display: none !important;
+
+  @include atDesktopU {
+    // Box model
+    display: block !important;
+  }
+}
