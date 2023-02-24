@@ -4,10 +4,19 @@ import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const users = [
+  {id: 1, name: 'Dima'},
+  {id: 2, name: 'Andrey'},
+]
+const messages = [
+  {id: 1, message: 'hello'},
+  {id: 2, message: 'Hiiii'}
+]
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <App users={users} messages={messages} />
   </React.StrictMode>
 );
 

@@ -4,7 +4,7 @@ import s from './SideBar.module.css';
 const selectedLink = () => {
   return (
     selected => selected.isActive ? s.active : undefined
-);
+  );
 }
 
 const SideBar = () => {

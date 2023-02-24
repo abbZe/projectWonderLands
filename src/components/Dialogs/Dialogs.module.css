@@ -1,0 +1,48 @@
+.dialogsWrapper {
+  /*Box model*/
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+}
+
+.dialogs {
+  /*Box model*/
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.dialog {
+  /*Box model*/
+  list-style: none;
+
+  /*Typography*/
+  font-size: 0.5rem;
+}
+
+.dialogLink {
+  /*Typography*/
+  color: black;
+  text-decoration: none;
+  font-size: 0.5rem;
+}
+
+.messages {
+  /*Box model*/
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.message {
+  /*Box model*/
+  list-style: none;
+
+  /*Typography*/
+  font-size: 0.5rem;
+  color: black;
+}
+
+.active {
+  /*Typography*/
+  color: green;
+}
